@@ -28,7 +28,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p className="text-justify">
-             Hi, I'm Braden, a passionate and driven front-end developer with a Bachelor’s degree in Information Technology,
+             Hi, I'm Braden, a passionate and driven front-end developer with a Bachelor's degree in Information Technology,
               which I earned in 2022. Based in Batangas City, I've been diving into the world of web development with enthusiasm
                and creativity.
             </p>
