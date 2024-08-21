@@ -1,5 +1,5 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
@@ -11,7 +11,7 @@ const skills = [
   { skill: "Next.js" },
   { skill: "Laravel" },
   { skill: "PHP" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -28,25 +28,25 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p className="text-justify">
-             Hi, I'm Braden, a passionate and driven front-end developer with a Bachelor's degree in Information Technology,
-              which I earned in 2022. Based in Batangas City, I've been diving into the world of web development with enthusiasm
-               and creativity.
+              Hi, I&apos;m Braden, a passionate and driven front-end developer with a Bachelor&apos;s degree in Information Technology,
+              which I earned in 2022. Based in Batangas City, I&apos;ve been diving into the world of web development with enthusiasm
+              and creativity.
             </p>
             <br />
             <p className="text-justify">
-            In addition to coding, I have a range of hobbies that keep me inspired and active. Whether I'm playing basketball, 
-            cycling through scenic trails, wakeboarding on a sunny day, capturing moments through photography, or exploring new 
-            destinations, I love to embrace life to the fullest.
+              In addition to coding, I have a range of hobbies that keep me inspired and active. Whether I&apos;m playing basketball,
+              cycling through scenic trails, wakeboarding on a sunny day, capturing moments through photography, or exploring new
+              destinations, I love to embrace life to the fullest.
             </p>
             <br />
             <p className="text-justify">
-            I believe in always looking on the {" "}
-            <span className="font-bold text-teal-500">
+              I believe in always looking on the{" "}
+              <span className="font-bold text-teal-500">
                 bright side
-              </span>{" "} 
-              and remembering that every challenge has its silver lining. 
-              This positive mindset fuels my approach to both work and life, and I'm always excited to see where my career
-              in tech will take me next. I'm open to new opportunities and eager to keep learning and growing. 🌟
+              </span>{" "}
+              and remembering that every challenge has its silver lining.
+              This positive mindset fuels my approach to both work and life, and I&apos;m always excited to see where my career
+              in tech will take me next. I&apos;m open to new opportunities and eager to keep learning and growing. 🌟
             </p>
             <br />
           </div>
@@ -61,15 +61,14 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
-    
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
