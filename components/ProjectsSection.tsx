@@ -9,7 +9,7 @@ const projects = [
     name: "Philippine Sneakerhead Culture",
     description: "This is blog website is about rapid growing of sneaker culture. ",
     image: "/PhilippineSneaker.png",
-    link: "https://wd-22-tutorial.vercel.app/",
+    link: "https://pinoy-sneakerhead.vercel.app/",
   },
   {
     name: "JBJR Construction",
